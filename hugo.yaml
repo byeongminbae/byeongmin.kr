@@ -72,7 +72,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "@Byeongmin Bae \U0001F44B"
+    Title: "Byeongmin Bae \U0001F44B"
     Content: "- Backend Engineer · Stay Curious"
 
   socialIcons:
