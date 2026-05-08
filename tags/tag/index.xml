@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tag on byeongmin.kr</title>
+    <link>https://byeongmin.kr/tags/tag/</link>
+    <description>Recent content in Tag on byeongmin.kr</description>
+    <image>
+      <title>byeongmin.kr</title>
+      <url>https://byeongmin.kr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://byeongmin.kr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 30 Jul 2023 18:43:15 +0900</lastBuildDate>
+    <atom:link href="https://byeongmin.kr/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12초 걸리던 쿼리 장애를 처음 겪고, 끝까지 파고든 기록</title>
+      <link>https://byeongmin.kr/posts/2023-07-30-mongodb-aggregation-query-optimization/</link>
+      <pubDate>Sun, 30 Jul 2023 18:43:15 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2023-07-30-mongodb-aggregation-query-optimization/</guid>
+      <description>MongoDB $lookup 병목 트러블슈팅</description>
+    </item>
+    <item>
+      <title>Introduction to ptmalloc2 Heap Management and Exploitation</title>
+      <link>https://byeongmin.kr/posts/2021-05-12-ptmalloc2-exploit/</link>
+      <pubDate>Wed, 12 May 2021 23:55:12 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2021-05-12-ptmalloc2-exploit/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>File Stream Oriented Programming and Exploitation Techniques</title>
+      <link>https://byeongmin.kr/posts/2021-03-22-exploitation-techniques/</link>
+      <pubDate>Mon, 22 Mar 2021 11:37:49 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2021-03-22-exploitation-techniques/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+  </channel>
+</rss>

@@ -2,21 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://byeongmin.kr/posts/2023-07-30-mongodb-aggregation-query-optimization/</loc>
+    <lastmod>2023-07-30T18:43:15+09:00</lastmod>
+  </url><url>
     <loc>https://byeongmin.kr/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://byeongmin.kr/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://byeongmin.kr/posts/testing/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <lastmod>2023-07-30T18:43:15+09:00</lastmod>
   </url><url>
     <loc>https://byeongmin.kr/posts/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <lastmod>2023-07-30T18:43:15+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/tags/tag/</loc>
+    <lastmod>2023-07-30T18:43:15+09:00</lastmod>
   </url><url>
     <loc>https://byeongmin.kr/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <lastmod>2023-07-30T18:43:15+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2021-05-12-ptmalloc2-exploit/</loc>
+    <lastmod>2021-05-12T23:55:12+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2021-03-22-exploitation-techniques/</loc>
+    <lastmod>2021-03-22T11:37:49+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2020-12-11-pwnable-kr-horcruxes-writeup/</loc>
+    <lastmod>2020-12-11T19:33:04+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/tags/security/</loc>
+    <lastmod>2020-12-11T19:33:04+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2020-04-15-pwnable-kr-asm-writeup/</loc>
+    <lastmod>2020-04-15T17:12:33+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2020-04-14-pwnable-kr-cmd2-writeup/</loc>
+    <lastmod>2020-04-14T14:56:11+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2020-04-14-pwnable-kr-passcode-writeup/</loc>
+    <lastmod>2020-04-14T14:47:38+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2020-03-04-reversing-kr-easy-keygen-writeup/</loc>
+    <lastmod>2020-03-04T09:56:27+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-10-23-bypassing-aslr-dep-via-rop-for-root-privilege-escalation/</loc>
+    <lastmod>2019-10-23T12:14:58+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-07-30-bypassing-dep-via-ret2libc-and-rop-for-root-privilege-escalation/</loc>
+    <lastmod>2019-07-30T08:46:10+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-07-09-ret2sc-for-root-privilege-escalation/</loc>
+    <lastmod>2019-07-09T13:05:47+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-06-02-writing-shellcode-on-linux-x86/</loc>
+    <lastmod>2019-06-02T11:44:12+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-05-26-lob-succubus-lv-18-20-writeup/</loc>
+    <lastmod>2019-05-26T22:31:36+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-04-18-lob-zombie-assassin-lv-17-20-writeup/</loc>
+    <lastmod>2019-04-18T04:12:52+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-04-10-reverse-engineering-windows-xp-minesweeper/</loc>
+    <lastmod>2019-04-10T09:02:36+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/posts/2019-03-09-root-me-org-elf-x86-format-string-bug-basic-2-writeup/</loc>
+    <lastmod>2019-03-09T13:32:11+09:00</lastmod>
+  </url><url>
+    <loc>https://byeongmin.kr/archives/</loc>
   </url><url>
     <loc>https://byeongmin.kr/categories/</loc>
+  </url><url>
+    <loc>https://byeongmin.kr/search/</loc>
   </url>
 </urlset>

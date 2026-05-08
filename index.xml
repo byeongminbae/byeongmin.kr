@@ -11,14 +11,119 @@
     </image>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jul 2023 18:43:15 +0900</lastBuildDate>
     <atom:link href="https://byeongmin.kr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>https://byeongmin.kr/posts/testing/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://byeongmin.kr/posts/testing/</guid>
-      <description>Desc Text.</description>
+      <title>12초 걸리던 쿼리 장애를 처음 겪고, 끝까지 파고든 기록</title>
+      <link>https://byeongmin.kr/posts/2023-07-30-mongodb-aggregation-query-optimization/</link>
+      <pubDate>Sun, 30 Jul 2023 18:43:15 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2023-07-30-mongodb-aggregation-query-optimization/</guid>
+      <description>MongoDB $lookup 병목 트러블슈팅</description>
+    </item>
+    <item>
+      <title>Introduction to ptmalloc2 Heap Management and Exploitation</title>
+      <link>https://byeongmin.kr/posts/2021-05-12-ptmalloc2-exploit/</link>
+      <pubDate>Wed, 12 May 2021 23:55:12 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2021-05-12-ptmalloc2-exploit/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>File Stream Oriented Programming and Exploitation Techniques</title>
+      <link>https://byeongmin.kr/posts/2021-03-22-exploitation-techniques/</link>
+      <pubDate>Mon, 22 Mar 2021 11:37:49 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2021-03-22-exploitation-techniques/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>pwnable.kr horcruxes Writeup</title>
+      <link>https://byeongmin.kr/posts/2020-12-11-pwnable-kr-horcruxes-writeup/</link>
+      <pubDate>Fri, 11 Dec 2020 19:33:04 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2020-12-11-pwnable-kr-horcruxes-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>pwnable.kr asm Writeup</title>
+      <link>https://byeongmin.kr/posts/2020-04-15-pwnable-kr-asm-writeup/</link>
+      <pubDate>Wed, 15 Apr 2020 17:12:33 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2020-04-15-pwnable-kr-asm-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>pwnable.kr cmd2 Writeup</title>
+      <link>https://byeongmin.kr/posts/2020-04-14-pwnable-kr-cmd2-writeup/</link>
+      <pubDate>Tue, 14 Apr 2020 14:56:11 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2020-04-14-pwnable-kr-cmd2-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>pwnable.kr passcode Writeup</title>
+      <link>https://byeongmin.kr/posts/2020-04-14-pwnable-kr-passcode-writeup/</link>
+      <pubDate>Tue, 14 Apr 2020 14:47:38 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2020-04-14-pwnable-kr-passcode-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>reversing.kr Easy Keygen Writeup</title>
+      <link>https://byeongmin.kr/posts/2020-03-04-reversing-kr-easy-keygen-writeup/</link>
+      <pubDate>Wed, 04 Mar 2020 09:56:27 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2020-03-04-reversing-kr-easy-keygen-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>Bypassing ASLR/DEP via ROP for Root Privilege Escalation</title>
+      <link>https://byeongmin.kr/posts/2019-10-23-bypassing-aslr-dep-via-rop-for-root-privilege-escalation/</link>
+      <pubDate>Wed, 23 Oct 2019 12:14:58 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-10-23-bypassing-aslr-dep-via-rop-for-root-privilege-escalation/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>Bypassing DEP via ret2libc and ROP for Root Privilege Escalation</title>
+      <link>https://byeongmin.kr/posts/2019-07-30-bypassing-dep-via-ret2libc-and-rop-for-root-privilege-escalation/</link>
+      <pubDate>Tue, 30 Jul 2019 08:46:10 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-07-30-bypassing-dep-via-ret2libc-and-rop-for-root-privilege-escalation/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>ret2sc for Root Privilege Escalation</title>
+      <link>https://byeongmin.kr/posts/2019-07-09-ret2sc-for-root-privilege-escalation/</link>
+      <pubDate>Tue, 09 Jul 2019 13:05:47 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-07-09-ret2sc-for-root-privilege-escalation/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>Writing Shellcode on Linux x86</title>
+      <link>https://byeongmin.kr/posts/2019-06-02-writing-shellcode-on-linux-x86/</link>
+      <pubDate>Sun, 02 Jun 2019 11:44:12 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-06-02-writing-shellcode-on-linux-x86/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>LOB succubus (lv.18/20) Writeup</title>
+      <link>https://byeongmin.kr/posts/2019-05-26-lob-succubus-lv-18-20-writeup/</link>
+      <pubDate>Sun, 26 May 2019 22:31:36 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-05-26-lob-succubus-lv-18-20-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>LOB zombie_assassin (lv.17/20) Writeup</title>
+      <link>https://byeongmin.kr/posts/2019-04-18-lob-zombie-assassin-lv-17-20-writeup/</link>
+      <pubDate>Thu, 18 Apr 2019 04:12:52 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-04-18-lob-zombie-assassin-lv-17-20-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>Reverse Engineering Windows XP Minesweeper</title>
+      <link>https://byeongmin.kr/posts/2019-04-10-reverse-engineering-windows-xp-minesweeper/</link>
+      <pubDate>Wed, 10 Apr 2019 09:02:36 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-04-10-reverse-engineering-windows-xp-minesweeper/</guid>
+      <description>Archive of security studies(2018–2022)</description>
+    </item>
+    <item>
+      <title>root-me.org ELF-x86-Format-string-bug-basic-2 Writeup</title>
+      <link>https://byeongmin.kr/posts/2019-03-09-root-me-org-elf-x86-format-string-bug-basic-2-writeup/</link>
+      <pubDate>Sat, 09 Mar 2019 13:32:11 +0900</pubDate>
+      <guid>https://byeongmin.kr/posts/2019-03-09-root-me-org-elf-x86-format-string-bug-basic-2-writeup/</guid>
+      <description>Archive of security studies(2018–2022)</description>
     </item>
   </channel>
 </rss>
