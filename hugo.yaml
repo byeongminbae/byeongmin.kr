@@ -22,7 +22,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: byeongmin.kr
-  description: "ExampleSite description"
+  description: "Backend Engineer · Stay Curious"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
