@@ -4,13 +4,12 @@
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
 <a href=/tags/>Tags</a>
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg></nav><h1>Tag
-<a href=/tags/tag/index.xml title=RSS aria-label=RSS><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>12초 걸리던 쿼리 장애를 처음 겪고, 끝까지 파고든 기록</h2></header><div class=entry-content><p>회사의 지식재산권 보호를 위해 스키마와 쿼리를 재구성하였으나 본질은 동일합니다.
-문제 정의 며칠 전 유저 검색 기능의 속도가 지나치게 느리다는 피드백을 받았습니다.
+<a href=/tags/tag/index.xml title=RSS aria-label=RSS><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>12초 걸리던 쿼리 장애를 처음 겪고, 끝까지 파고든 기록</h2></header><div class=entry-content><p>회사의 지식재산권 보호를 위해 도메인과 스키마, 쿼리를 가상의 도서관 도메인으로 완전히 재구성하였고 실제 회사에서 쓰이는 것과는 관련이 없음을 밝힙니다.
+이 글에서는 오직 문제 해결 과정만을 다룹니다.
+문제 정의 며칠 전 도서 검색 기능의 속도가 지나치게 느리다는 피드백을 받았습니다.
 개발 환경에서는 성능 문제를 체감한 적이 없었고 사용 빈도도 높지 않았던 기능이라서, 솔직히 문제가 발생할 것이라고 예상하지 못했습니다
 운영 환경에서 직접 재현해보니 검색어가 있을 때는 1초 미만이었지만, 없는 경우 약 12초의 지연이 발생했습니다.
-이는 곧 전체 유저를 보기 위해선 유저가 12초 동안 기다려야 한다는 말이 됩니다.
-일반적으로 알려진 것처럼 5초 이상의 로딩은 사용자 이탈로 직결되는 만큼, 바로 원인 파악에 들어갔습니다.
-...</p></div><footer class=entry-footer><span title='2023-07-30 18:43:15 +0900 +0900'>2023-07-30</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>1667 words</span>&nbsp;·&nbsp;<span>Byeongmin Bae</span></footer><a class=entry-link aria-label="post link to 12초 걸리던 쿼리 장애를 처음 겪고, 끝까지 파고든 기록" href=https://byeongmin.kr/posts/2023-07-30-mongodb-aggregation-query-optimization/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Introduction to ptmalloc2 Heap Management and Exploitation</h2></header><div class=entry-content><p>동적 할당 메커니즘에서는 성능을 위해 free 된 청크들을 재활용 합니다. 만약 이런 재활용 없이 시스템콜을 통해 매번 메모리를 할당받거나 반환한다면 유저-커널모드 전환 비용으로 인해 성능 하락이 심해집니다.
+...</p></div><footer class=entry-footer><span title='2023-07-30 18:43:15 +0900 +0900'>2023-07-30</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>1652 words</span>&nbsp;·&nbsp;<span>Byeongmin Bae</span></footer><a class=entry-link aria-label="post link to 12초 걸리던 쿼리 장애를 처음 겪고, 끝까지 파고든 기록" href=https://byeongmin.kr/posts/2023-07-30-mongodb-aggregation-query-optimization/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Introduction to ptmalloc2 Heap Management and Exploitation</h2></header><div class=entry-content><p>동적 할당 메커니즘에서는 성능을 위해 free 된 청크들을 재활용 합니다. 만약 이런 재활용 없이 시스템콜을 통해 매번 메모리를 할당받거나 반환한다면 유저-커널모드 전환 비용으로 인해 성능 하락이 심해집니다.
 그래서 메모리 할당자는 기존 메모리 영역 재사용을 위한 힙 자료구조와 그에 맞는 최적의 힙 관리 알고리즘을 구현해놨습니다.
 이번 포스팅에선 이러한 구조에 대해 이해하고 어떻게 exploit 할 수 있는지 알아보려 합니다.
 이번에 살펴볼 메모리 할당자는 ptmalloc2 입니다. dlmalloc, TCMalloc 도 있지만, ptmalloc2 는 glibc 의 기본 할당자로 오랫동안 사용되어왔고, 리얼월드에서도 많이 쓰입니다.
